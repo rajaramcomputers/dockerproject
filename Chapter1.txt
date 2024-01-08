@@ -1,0 +1,21 @@
+Install WSL - in powershell
+
+wsl --install
+
+wsl --list -v
+
+winget install Docker.DockerDesktop
+
+to see the progress
+
+watch wsl --list -v
+
+
+
+
+To Create a nginx 
+
+docker container run --rm -it -p 8080:80 nginx
+
+docker container run --rm -it -p 8080:80 httpd
+
